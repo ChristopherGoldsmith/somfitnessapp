@@ -1,0 +1,50 @@
+.container{
+    width: 40%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: black 1px solid;
+    padding: 10px;
+}
+#container2{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+}
+.{
+}
+#days{
+    border: black 1px solid;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+#workouts{
+    border: black 1px dotted;
+}
+.alignE{
+    text-align: center;
+}
+.textbox{
+    background-color: goldenrod;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;
+}
+.textbox:hover{
+    background-color: indigo;
+}
+.clicked{
+    background-color: blue;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;
+    display: inline;
+}
